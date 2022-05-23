@@ -1,0 +1,23 @@
+body {
+  text-align: justify;
+}
+
+caption {
+  text-align: justify;
+}
+
+p.caption {
+  text-align: justify;
+  color: #222222;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
