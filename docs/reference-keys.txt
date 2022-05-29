@@ -15,7 +15,7 @@ task-and-study-design-features-of-fmri-drug-cue-reactivity-studies
 participants-in-fdcr-studies
 biomarkers-in-fdcr-studies
 interventional-fdcr-studies
-tables-and-figures
+supplementary-tables-and-figures
 prisma-p-2015-flowchart
 multi-modal-correlations-in-fdcr-studies
 detailed-breakdown-of-interventional-fdcr-studies
