@@ -1,0 +1,52 @@
+--- 
+title: Live FDCR Systematic Review
+# subtitle: |
+author: "Mohsen Ebrahimi"
+date: "2023-01-08"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: ./bib/references.bib
+url: https://mohsenebrahimyir.github.io/fdcr/
+# favicon: 
+#   - img/favicon.ico
+# cover-image:
+#   - img/cover.jpg
+description: |
+  Functional Magnetic Resonance Imaging Studies Drug Cue-Reactivity (FDCR)
+  Studies in Addiction Medicine
+link-citations: yes
+linkcolor: blue
+github-repo: mohsenebrahimyir/fdcr
+classoption: openany
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	fig.align = "center",
+	fig.pos = "!ht",
+	# fig.id = FALSE,
+	# fig.lp = NA,
+	message = FALSE,
+	warning = FALSE,
+	out.width = "95%"
+)
+```
+
+```{r include=FALSE}
+source("R/library.R")
+source("R/database.R")
+
+unlink("docs", recursive = TRUE)
+```
+
+# Live Systematic Review: Functional Magnetic Resonance Imaging Studies Drug Cue-Reactivity (FDCR) Studies in Addiction Medicine {-}
+
+- Update date: 1/8/2023
+
+
+## Link to the Database {-}
+
+- [Link to Database (Google Sheet)](https://docs.google.com/spreadsheets/d/1ZpGM57pZMhZZdD4IhxQw6sG_9uRJmukxCwrLPHZoMYU/edit?usp=drivesdk)
+
+

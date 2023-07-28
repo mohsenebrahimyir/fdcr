@@ -1,0 +1,11 @@
+delete_merged_file: true
+book_filename: "FDCR"
+output_dir: "docs"
+rmd_subdir: "content"
+language:
+  label:
+    toc: "Table of Content"
+    fig: "Figure "
+    tab: "Table "
+  ui:
+    chapter_name: ""
