@@ -1,6 +1,6 @@
 # large file
-fig/
-data/
+/fig/
+/data/
 
 
 # Build and Release Folders
