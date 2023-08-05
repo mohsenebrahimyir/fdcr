@@ -1,24 +1,21 @@
-bookdown::bs4_book:
-# bookdown::gitbook:
-  name: "Live FDCR Systematic Review"
+# bookdown::bs4_book:
+bookdown::gitbook:
+  name: "Live Systematic Review"
   css: ./stl/style.css
-  template: ./stl/bs4_book.html
-  split_by: section
-  theme:
-    # primary: "#637238"   
-    base_font: 
-      google: Roboto
+  # template: ./stl/bs4_book.html
+  split_by: chapter
+  number_sections: false
   includes:
     in_header: ./stl/header.html
   config:
     toc:
       collapse: none
       before: |
-        <li><a href="./index.html">Live FDCR Systematic Review</a></li>
+        <li><a href="./index.html">Live Systematic Review</a></li>
       after: |
         <li>
           <a href="https://mohsenebrahimyir.github.com/fdcr/" target="blank">
-            Live FDCR Systematic Review
+            Live Systematic Review
           </a>
         </li>
     download: false

@@ -1,0 +1,152 @@
+# Results {-}
+
+```{r}
+caption <- "**Four major steps in the validation of fMRI drug cue reactivity (FDCR)-derived biomarkers.** After an FDCR-derived biomarker is precisely specified, the biomarker's context of use should be decided. After the analytical and clinical validation of the biomarker and cost-benefit analysis, the compiled evidence is presented for regulatory approval. The FDA evaluates the use of biomarkers for drug development through a biomarker qualification process involving the submission of a Letter of Intent, a Qualification Plan, and a Full Qualification Package, while use of FDCR-derived biomarker in preclinical or clinical contexts requires the endorsement of a constellation of other institutions"
+```
+
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 1.png")
+```
+
+## fMRI cue-reactivity studies across years {-} 
+
+```{r}
+caption <- "**fMRI cue-reactivity studies across years.**
+Number of fMRI cue-reactivity studies each year from %s till the end of %s, broken down by the type of addictive substance/ behavior. \"Multiple\" stands for those studies that included more than one type of addictive substance/ behavior.
+" |> sprintf(
+  included["Pub Year"] |> min(),
+  included["Pub Year"] |> max()
+)
+```
+
+
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 2.png")
+```
+
+
+## Study and task design {-} 
+
+
+```{r}
+caption <- "**Task and study design features of fMRI drug cue reactivity studies.** a. Number of time points in FDCR studies. Seventy-four studies scanned participants at two time points and five at three time points. b. Boxplot representing the distribution of median inter-scan intervals (in days), for FDCR studies with more than one scanning session. Eleven studies scanned individuals within the same day (interval = 0 days). c. Main FDCR task design type. d. Boxplot of the distribution of FDCR task durations. e. FDCR studies broken down by stimulus and substance/ behavior type. f. Paradigms combined with FDCR tasks in %s studies in the database.
+" |> sprintf(44)
+```
+
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 3.png")
+```
+
+
+## Participants in FDCR studies {-} 
+
+```{r}
+caption <- "**Participants in FDCR studies.** The Sankey diagram represents the number of participants in FDCR studies across study years, gender, population type, potentially addictive drugs and behaviors, and interventions.
+"
+```
+
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 4.png")
+```
+
+
+## Study design types and relevance for potential biomarker development {-}
+
+```{r}
+caption <- "**Biomarkers in FDCR studies.** a. fMRI cue-reactivity studies which can lead to the development of a biomarker, broken down by substance or behavior of interest in each study. Note that numbers do not sum to 357 and percentages do not sum to 100 since some studies fit no biomarker framework, for example cross-sectional studies with a single group of participants or those that include only non-clinical populations without follow-up, while some studies fit multiple categories. b. Dumbbell plot showing the number of significant and non-significant biomarker-related tests.
+"
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 5.png")
+```
+
+```{r}
+tibble::tibble(
+  "**Biomarker Type**" = c(
+    "**Susceptibility**",
+    "**Diagnostic**",
+    "**Severity**",
+    "**Prognostic**",
+    "**Monitoring**",
+    "**Predictive**",
+    "**Response**",
+    "**Safety**"
+    ),
+  "**Description**" = c(
+    "Indicates the potential for developing a disease or medical condition in an individual who does not currently have the clinically apparent disease or the medical condition",
+    "Detects or confirms the presence of a disease or condition of interest, or identifies individuals with a subtype of the disease",
+    "Is correlated with greater intensity of the disease",
+    "Identifies the likelihood of a clinical event, disease recurrence, or progression in patients who have the disease or medical condition of interest",
+    "Is measured repeatedly for assessing the status of a disease or medical condition or for evidence of exposure to (or effect of) a medical product or environmental agent",
+    "The existence or intensity of the biomarker reflects the propensity of individuals to experience favorable or unfavorable effects from exposure to a medical product or environmental agent",
+    "Shows that a biological effect has occurred in an individual exposed to a medical product or environmental agent",
+    "Is measured before or after an exposure to a medical product or an environmental agent to indicate the likelihood, presence, or extent of toxicity as an adverse effect"
+  ),
+  "**Examples of studies that can provide supporting evidence for biomarker development**" = c(
+    "Baseline cue-reactivity in the ventromedial prefrontal cortex, orbitofrontal cortex, anterior cingulate cortex, striatum, and insula was greater in individuals who subsequently transitioned from moderate to heavy drinking compared to non-transitioners (Dager et al., 2014)",
+  "**SUDs vs. Healthy:**
+  
+*Individuals with cocaine use disorder showed higher FDCR compared to controls in a frontoparietal network (Costumero et al., 2018)
+
+*Individuals with cocaine use disorder compared to people with recreational stimulant use showed greater orbitofrontal and anterior cingulate FDCR during a cocaine-cue Stroop task (Smith et al., 2014)
+
+**SUD Subtyping:**
+
+*Among people with heavy alcohol consumption, “relief” drinking (due to negative reinforcement or habit) compared to reward drinking (due to positive reinforcement) was associated with greater dorsal striatal FDCR (Burnette et al., 2021)
+
+*Individuals with cannabis use disorder and early-onset cannabis use showed FDCR in the dorsal striatum, while those with late-onset use showed FDCR in the ventral striatum (Wetherill et al., 2016)",
+  "In individuals with opioid use disorder, baseline FDCR in the nucleus accumbens, orbitofrontal cortex, and amygdala was associated with drug use severity (Addiction Severity Index Drug Composite Score), and withdrawal symptoms mediated the relationship between nucleus accumbens FDCR and drug use severity (Shi et al., 2021)",
+  "Among individuals with stimulant use disorder, baseline FDCR in the nucleus accumbens was prospectively associated with time to relapse and could classify individuals into those who would relapse and those would not at 3 months after the scan, with an accuracy outperforming predictions using self-reported and clinical measures (MacNiven et al., 2018)",
+  "**Naturalistic Monitoring:**
+
+*Among women with tobacco use disorder, frontal, temporal, and parietal regions showed FDCR during the follicular phase of the menstrual cycle but not the luteal phase (Mendrek et al., 2014)
+
+*Among participants with internet gaming disorder (IGD) followed over one year, natural recovery from IGD was associated with decreased anterior cingulate and lentiform FDCR and an increase in cue-related effective anterior cingulate cortex-lentiform connectivity (Dong et al., 2019)
+
+**Treatment Monitoring:**
+
+In a randomized placebo-controlled trial of individuals with alcohol use disorder, naltrexone lowered ventral striatal FDCR from baseline, and more FDCR reduction was associated with greater clinical response (Schacht et al., 2017)",
+  "*In individuals with alcohol use disorder, the existence of left putamen FDCR at baseline and the reduction of left putamen FDCR early during treatment predicted the effectiveness of naltrexone (Bach et al., 2020)
+
+*In individuals with alcohol use disorder, high baseline FDCR in the ventral striatum statistically predicted response to naltrexone (Mann et al., 2014). Notably, this finding has been directly replicated (Bach et al., 2021)",
+  "**Biological Response:**
+
+In a randomized placebo-controlled trial of individuals with cocaine use disorder, modafinil acutely reduced FDCR in the ventral tegmental area and increased FDCR in the anterior cingulate and putamen, eliminating differences between participants with cocaine use disorder and healthy control participants (Goudriaan et al., 2013)
+
+**Potential Surrogate Endpoint:**
+
+In a randomized sham-controlled trial involving people with tobacco use disorder, active versus sham tDCS over the dorsolateral prefrontal cortex (DLPFC) increased cue-related functional connectivity between the DLPFC and the parahippocampus, and this increase was correlated with decreased cigarette craving (Yang et al., 2017)",
+  "Contributing to discussions on the safety of electronic cigarettes, FDCR showed that e-cigarette smoking may immediately increase FDCR (T. T. Nichols et al., 2016). Furthermore, sweet taste and nicotine content may synergistically influence the nucleus accumbens FDCR to the sight and smell of e-cigarettes (Kroemer et al., 2018). Safety FDCR biomarkers may overlap with prognostic or response biomarkers in the context of SUDs since SUDs involve the use of substances whose safety may be assessed using FDCR"
+  )) |>  
+  knitr::kable(
+    booktabs = TRUE,
+    caption = "
+    **Potential fMRI drug cue-reactivity (FDRC)-based biomarker domains, their definitions, and sample studies that provide supporting evidence for biomarker development.** Note that potential FDCR-derived safety biomarkers were very rare in the database, and thus have not been included as a separate category in other tables and figures. All the definitions for biomarkers have been directly adapted from the BEST Glossary, except for “Severity” biomarkers (defined based on previous biomarker literature as discussed)."
+  ) |> my_table_style()
+```
+
+
+## Examples of brain regions in fMRI drug cue-reactivity (FDCR) studies with supporting evidence for potential biomarker development. {-}
+
+```{r}
+caption <- "**Examples of brain regions in fMRI drug cue-reactivity (FDCR) studies with supporting evidence for potential biomarker development.** Visual representation of regions with significant FDCR signal in example studies presented in Table 1. Each panel presents significant findings from studies whose results could support the development of one of the biomarker types in the modified BEST biomarker taxonomy, with each region presented with a unique color across panels. Note that these are example findings, and do not necessarily generalize beyond the context of the studies referenced in Table 1."
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 6.png")
+```
+
+## Interventional FDCR studies
+
+```{r}
+caption <- "**fMRI drug cue-reactivity studies with an Intervention or Manipulation.** a. Types of interventional FDCR studies each year, including randomized controlled trials (RCTs), controlled trials without randomization, single-arm trials, and retrospective studies. b. Types of interventions in interventional FDCR studies. c. Role of FDCR in interventional studies: FDCR can be measured before an intervention to predict intervention results or measured after an intervention to assess impact with or without a comparison to baseline FDCR."
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 7.png")
+```

@@ -1,0 +1,12 @@
+# Discussion
+
+## Conclusion {-}
+
+
+```{r}
+caption <- "**Preliminary map of the evidence and future directions in biomarker development.** The Sankey diagram presents a summary of the methodological parameters and contexts of use (COUs) across the 432 potential biomarkers in the systematic review. Moving forward, expert consensus and meta- and mega-analyses may be used to facilitate harmonization and the development of optimal FDCR biomarkers which would undergo analytical and clinical validation and cost-benefit analysis before regulatory qualification for drug development or clinical use."
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/Figure 8.png")
+```
