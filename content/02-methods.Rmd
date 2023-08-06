@@ -39,6 +39,3 @@ No restriction was placed on study participants based on demographic, ethnic, bi
 The PubMed search engine from the National Library of Medicine’s online portal (https://www.ncbi.nlm.nih.gov/pubmed/) was used to conduct the search. Endnote X9 (The EndNote Team, 2013) was used for reference management. Google Sheets from Google’s Google Docs Editors suite was used to design tables for data extraction and sharing among authors. Data analyses and illustrations were conducted using R version 4.0.5 (R Core Team, 2013).
 
 The protocol for this systematic review was developed throughout 2019 and was first registered on the Open Science Framework (OSF) website on May 18th, 2020.
-
-**Link to the Live Database:**
-[Here](https://docs.google.com/spreadsheets/d/1ZpGM57pZMhZZdD4IhxQw6sG_9uRJmukxCwrLPHZoMYU/edit?usp=drivesdk) you can find the link to the live database including all the studies and the extracted data.

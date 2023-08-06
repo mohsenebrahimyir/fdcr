@@ -7,3 +7,8 @@ tab:unnamed-chunk-12
 fig:unnamed-chunk-14
 fig:unnamed-chunk-16
 fig:unnamed-chunk-18
+fig:unnamed-chunk-20
+fig:unnamed-chunk-22
+fig:unnamed-chunk-24
+fig:unnamed-chunk-26
+fig:unnamed-chunk-28

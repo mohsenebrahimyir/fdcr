@@ -1,0 +1,47 @@
+# Supplementary Materials
+
+```{r}
+caption <- "**PRISMA Flowchart.**The titles and abstracts of 952 records from the start of 1998 until the end of 2022 were screened, and 420 were excluded during preliminary screening. The full texts of 532 records were extracted and assessed for eligibility. Ultimately, 411 records were included in the systematic review."
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/supplemental-figure-1.png")
+```
+
+```{r}
+caption <- '**Global contribution to fMRI drug cue-reactivity (FDCR) studies.** Number of FDCR studies in each country, broken down by the type of addictive substance/behavior. "Multiple"" stands for studies including more than one type of addictive substance/behavior. The "other" category includes inhalants and betel-quid. Note that only papers whose full-text was in English were included, potentially leading to a relative over-representation of majority English-speaking countries.'
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/supplemental-figure-2.png")
+```
+
+```{r}
+caption <- '**Breakdown of visual cues.** Among 351 sets of visual cues used in FDCR studies, they are broken down into pictures and videos with audio and without audio.'
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/supplemental-figure-3.png")
+```
+
+```{r}
+caption <- '**Multi-modal correlations in FDCR studies.** a. Studies which investigated correlations between FDCR results and other types of measures, broken down by substance or behavior of interest in each study. “Multiple” stands for those studies that included more than one type of addictive substance/behavior. The "other" category includes inhalants and betel-quid. Note that numbers do not sum to 357 since some studies investigated no multi-modal correlations, while some fit multiple categories. b. Dumbbell plot showing the number of significant and non-significant tests of multi-modal correlation.'
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/supplemental-figure-4.png")
+```
+
+```{r}
+caption <- '**Detailed breakdown of interventional FDCR studies with pharmacological (N = 66) or behavioral (N = 52) interventions.** The “Multiple” column stands for those studies that included more than one type of addictive substance/behavior, while the “Multiple” rows stand for those FDCR studies which used multiple pharmacological interventions or multiple behavioral interventions.'
+```
+
+```{r fig.cap=caption}
+knitr::include_graphics(path = "./fig/supplemental-figure-5.png")
+```
+
+
+
+
+
+

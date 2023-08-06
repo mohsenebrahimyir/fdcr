@@ -6,7 +6,7 @@ caption <- "**Four major steps in the validation of fMRI drug cue reactivity (FD
 
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 1.png")
+knitr::include_graphics(path = "./fig/figure-1.png")
 ```
 
 ## fMRI cue-reactivity studies across years {-} 
@@ -23,7 +23,7 @@ Number of fMRI cue-reactivity studies each year from %s till the end of %s, brok
 
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 2.png")
+knitr::include_graphics(path = "./fig/figure-2.png")
 ```
 
 
@@ -37,7 +37,7 @@ caption <- "**Task and study design features of fMRI drug cue reactivity studies
 
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 3.png")
+knitr::include_graphics(path = "./fig/figure-3.png")
 ```
 
 
@@ -50,7 +50,7 @@ caption <- "**Participants in FDCR studies.** The Sankey diagram represents the 
 
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 4.png")
+knitr::include_graphics(path = "./fig/figure-4.png")
 ```
 
 
@@ -62,7 +62,7 @@ caption <- "**Biomarkers in FDCR studies.** a. fMRI cue-reactivity studies which
 ```
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 5.png")
+knitr::include_graphics(path = "./fig/figure-5.png")
 ```
 
 ```{r}
@@ -138,7 +138,7 @@ caption <- "**Examples of brain regions in fMRI drug cue-reactivity (FDCR) studi
 ```
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 6.png")
+knitr::include_graphics(path = "./fig/figure-6.png")
 ```
 
 ## Interventional FDCR studies
@@ -148,5 +148,5 @@ caption <- "**fMRI drug cue-reactivity studies with an Intervention or Manipulat
 ```
 
 ```{r fig.cap=caption}
-knitr::include_graphics(path = "./fig/Figure 7.png")
+knitr::include_graphics(path = "./fig/figure-7.png")
 ```

@@ -14,7 +14,7 @@ bookdown::gitbook:
         <li><a href="./index.html">Live Systematic Review</a></li>
       after: |
         <li>
-          <a href="https://mohsenebrahimyir.github.com/fdcr/" target="blank">
+          <a href="https://mohsenebrahimyir.github.io/fdcr/" target="blank">
             Live Systematic Review
           </a>
         </li>
