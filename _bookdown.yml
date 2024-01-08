@@ -1,4 +1,4 @@
-delete_merged_file: true
+delete_merged_file: false
 book_filename: "FDCR"
 output_dir: "docs"
 rmd_subdir: "content"

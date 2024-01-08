@@ -2,6 +2,9 @@
 /fig/
 /data/
 
+# merge file
+FDCR.Rmd
+
 
 # Build and Release Folders
 bin-debug/
