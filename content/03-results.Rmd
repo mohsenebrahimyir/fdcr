@@ -12,23 +12,18 @@ knitr::include_graphics(path = "./fig/figure-1.png")
 ## fMRI cue-reactivity studies across years {-} 
 
 ```{r}
-caption <- "**fMRI cue-reactivity studies across years.**
-Number of fMRI cue-reactivity studies each year from %s till the end of %s, broken down by the type of addictive substance/ behavior. \"Multiple\" stands for those studies that included more than one type of addictive substance/ behavior.
+caption <- "**fMRI cue-reactivity studies across years.** Number of fMRI cue-reactivity studies each year from %s till the end of %s, broken down by the type of addictive substance/ behavior. \"Multiple\" stands for those studies that included more than one type of addictive substance/ behavior.
 " |> sprintf(
   included["Pub Year"] |> min(),
   included["Pub Year"] |> max()
 )
 ```
 
-
-
 ```{r fig.cap=caption}
 knitr::include_graphics(path = "./fig/figure-2.png")
 ```
 
-
 ## Study and task design {-} 
-
 
 ```{r}
 caption <- "**Task and study design features of fMRI drug cue reactivity studies.** a. Number of time points in FDCR studies. Seventy-four studies scanned participants at two time points and five at three time points. b. Boxplot representing the distribution of median inter-scan intervals (in days), for FDCR studies with more than one scanning session. Eleven studies scanned individuals within the same day (interval = 0 days). c. Main FDCR task design type. d. Boxplot of the distribution of FDCR task durations. e. FDCR studies broken down by stimulus and substance/ behavior type. f. Paradigms combined with FDCR tasks in %s studies in the database.
